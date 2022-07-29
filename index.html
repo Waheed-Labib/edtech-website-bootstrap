@@ -178,7 +178,7 @@
                     </div>
                 </div>
                 <div class="col h-50">
-                    <div class="card border border-0 h-100 d-flex flex-row">
+                    <div class="card border border-1 h-100 d-flex flex-row">
                         <img class="card-img-top w-25" src=" images/course/course-3.png" alt="...">
                         <div class="card-body d-flex flex-column justify-content-evenly">
                             <div>
@@ -215,7 +215,7 @@
                     </div>
                 </div>
                 <div class="col h-50">
-                    <div class="card border border-0 h-100 d-flex flex-row">
+                    <div class="card border border-1 h-100 d-flex flex-row">
                         <img class="card-img-top w-25" src=" images/course/course-5.png" alt="...">
                         <div class="card-body d-flex flex-column justify-content-evenly">
                             <div>
@@ -233,7 +233,7 @@
                     </div>
                 </div>
                 <div class="col h-50">
-                    <div class="card border border-0 h-100 d-flex flex-row">
+                    <div class="card border border-1 h-100 d-flex flex-row">
                         <img class="card-img-top w-25" src=" images/course/course-6.png" alt="...">
                         <div class="card-body d-flex flex-column justify-content-evenly">
                             <div>
@@ -257,8 +257,90 @@
 
         </section>
 
+        <!-- FAQ section -->
 
-
+        <section class="container mx-auto my-5">
+            <div class="mb-5 d-flex flex-column justify-content-center align-items-center">
+                <h1 class="fw-bold text-dark-50 mb-2 mt-5">Frequently Asked Questions</h1>
+                <p class="">Here are the answers of some frequently-asked-questions</p>
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What is the difference between CSS Grid and CSS Flexbox?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Grid : </strong>CSS Grid Layout, is a two-dimensional grid-based layout system with
+                            rows and columns, making it easier to design web pages without having to use floats and
+                            positioning.
+                            <br><br>
+                            <strong>Flex : </strong>The CSS Flexbox offers a one-dimensional layout. It is helpful in
+                            allocating and aligning the space among items in a container.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What is the difference between Bootstrap and Tailwind?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Both of them are popular <span class="text-secondary">front-end CSS frameworks</span>.
+                            Bootstrap offers pre-built interface elements such as navigation, typography, buttons, and
+                            forms. Bootstrap offers pre-built components that provide a responsive UI (user interface)
+                            kit. On the other hand, Tailwind offers excellent control over its features. It has vast
+                            utilities, and a developer feels free to design.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            what is CSS Bow Model?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The CSS box model is essentially a box that wraps around every HTML element. It consists of:
+                            margins, borders, padding, and the actual content.
+                            <br>
+                            <strong>Content - </strong>The content of the box, where text and images appear
+                            <strong>Padding - </strong>Clears an area around the content. The padding is transparent
+                            <strong>Border - </strong>A border that goes around the padding and content
+                            <strong>Margin - </strong>Clears an area outside the border. The margin is transparent
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed fw-semibold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                aria-controls="collapseFour">
+                                what is a Semantic Tag?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Basically Semantic tags are those tags which clearly defines its content. In other terms
+                                semantic tags are those tags whose name can easily let you know which type of content
+                                take place in it. Like <header>, <section>, <article> and <footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
