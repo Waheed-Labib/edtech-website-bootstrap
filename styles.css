@@ -13,3 +13,7 @@
 .text-banana-primary {
     color: rgba(40, 155, 222, 1);
 }
+
+.carousel-item button {
+    background-color: rgba(40, 155, 222, 1);
+}
