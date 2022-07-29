@@ -1,3 +1,15 @@
 .footer-styles {
     height: 350px;
 }
+
+.register-styles {
+    height: 250px;
+}
+
+.bg-banana-primary {
+    background-color: rgba(40, 155, 222, 1);
+}
+
+.text-banana-primary {
+    color: rgba(40, 155, 222, 1);
+}
