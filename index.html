@@ -271,14 +271,40 @@
 
         <!-- ready to join part -->
         <section
-            class="px-5 container mx-auto bg-banana-primary d-flex flex-column flex-sm-column flex-md-column flex-lg-row justify-content-evenly justify-content-sm-evenly justify-content-md-evenly justify-content-lg-between align-items-center register-styles my-5 rounded-3">
+            class="ready-to-join px-5 container mx-auto bg-banana-primary d-flex flex-column flex-sm-column flex-md-column flex-lg-row justify-content-evenly justify-content-sm-evenly justify-content-md-evenly justify-content-lg-between align-items-center register-styles my-5 rounded-3">
             <div class="ps-5">
                 <h2 class="fw-bold text-light">Ready to Join?</h2>
                 <p class="text-white">You can Register by sharing just a few informations and authentications.</p>
             </div>
 
             <div class="pe-5">
-                <button class="btn btn-outline-white bg-light text-banana-primary fw-bold px-4 py-2">Register</button>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light text-banana-primary fw-bold px-5 py-3" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Register
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Sign Up / Register</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <input type="text" placeholder="Enter Your Email">
+                                <input type="text" placeholder="Password">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>

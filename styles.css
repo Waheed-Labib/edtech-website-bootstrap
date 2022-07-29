@@ -17,3 +17,8 @@
 .carousel-item button {
     background-color: rgba(40, 155, 222, 1);
 }
+
+.ready-to-join button:hover {
+    color: rgba(40, 155, 222, 1);
+    background-color: white;
+}
